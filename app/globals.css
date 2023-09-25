@@ -1,0 +1,17 @@
+:root {
+  --blue: #13136b;
+  --white: white;
+  --dargray: #e5e4e4;
+}
+
+body {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  height: 100%;
+  background: linear-gradient(45deg, rgb(57, 57, 241), var(--blue));
+
+}
